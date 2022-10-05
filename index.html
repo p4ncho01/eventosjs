@@ -11,14 +11,18 @@
     <link rel="stylesheet" href="./css/styles.css">
     <script src="./js/global.js" defer></script>
     <script src="./js/main.js" defer></script>
-    <title>pc</title>
+    <title>Chilean Gaming</title>
 </head>
 
 <body>
 
     <header>
         <div id="contHeader">
-
+            <div id="contMarca">
+                <a href="./index.html" id="linkLogo">
+                    <h1>Chilean Gaming</h1>
+                </a>
+            </div>
             <div id="contenedorCarrito">
                 <a id="linkCarrito" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight"
                     aria-controls="offcanvasRight">
@@ -58,7 +62,11 @@
                                 <input type="checkbox" id="CPU_Intel" name="producto" value="CPU_Intel">
                                 CPU Intel
                             </label>
-                            <button class="btn-accion btn-filtro" type="submit" id="btn-filtrar">Aplicar</button> 
+                            <label for="CPU_Amd">
+                                <input type="checkbox" id="CPU_RYZEN" name="producto" value="CPU_RYZEN">
+                                CPU RYZEN
+                            </label>
+                            <button class="btn-accion btn-filtro" type="submit" id="btn-filtrar">Aplicar</button>
                         </fieldset>
                     </form>
                 </article>
@@ -73,8 +81,25 @@
         </main>
 
         <footer>
+            <div id="contSocial">
+                <div id="footContacto">
+                    <h3>Contactanos</h3>
+                    <p>+569 84804140</p>
+                    <p><a href="#">info@chileangaming.com</a></p>
+                    <p>Quinchamali 247, Stgo, Chile</p>
+                </div>
+
+                <div id="footRedes">
+                    <h3>Redes sociales</h3>
+                    <div id="Container_Redes">
+                        <a href="#"><img src="./img/facebook.png" alt="Logo de facebook" class="logosRedes"></a>
+                        <a href="#"><img src="./img/instagram.png" alt="Logo de instagram" class="logosRedes"></a>
+                        <a href="#"><img src="./img/twitter.png" alt="Logo de twitter" class="logosRedes"></a>
+                    </div>
+                </div>
+            </div>
             <div id="footCopy">
-                <p>Copyright 2022</p>
+                <p>Copyright &copy; Chilean Gaming 2022</p>
             </div>
         </footer>
     </div>

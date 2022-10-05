@@ -1,9 +1,16 @@
 [
     {
-        "idprod": 1000,
-        "nombre": "PROCESADOR INTEL CORE I3 12100",
+        "idprod": 7005,
+        "nombre": "I5 10400k + RTX 2060",
         "categoria": "CPU_Intel",
-        "precio": 25000,
-        "imagen": "./img/Productos/Procesadores/i3.jpg"
+        "precio": 359990,
+        "imagen": "./img/productos/i5.webp"
+    },
+    {
+        "idprod": 7006,
+        "nombre": "RYZEN 5 3600 + RTX 3050",
+        "categoria": "CPU_RYZEN",
+        "precio": 499990,
+        "imagen": "./img/productos/shopping.webp  "
     }
 ]
